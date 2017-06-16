@@ -6,4 +6,15 @@ async function asyncFun () {
     .then(x => x / 2);
   return value;
 }
-asyncFun().then(x => console.log(`x: ${x}`));
+
+
+
+console.log('ddddddddddddd');
+asyncFun().then(x => console.log(`x: ${x}`))
+.then(()=>{
+  console.log('compet');
+})
+console.log('ddddddddddddd');
+
+console.log('ddddddddddddd');
+console.log('ddddddddddddd');console.log('ddddddddddddd');
